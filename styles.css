@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Oranienbaum&family=Roboto&family=Rubik+Microbe&family=Sacramento&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Oranienbaum&family=Roboto&family=Roboto+Condensed&family=Rubik+Microbe&family=Sacramento&family=Xanh+Mono&display=swap');
+
+body{
+    font-family: 'Covered By Your Grace', cursive;
+    background-color: #DEBACE;
+    color: #EAEAEA;
+}
+.welcome{
+    position: absolute;
+    top:100px;
+    font-size: 80px;
+    font-family: 'Sacramento', cursive;
+    background-color: #251D3A;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+}
+span{
+    font-size: 40px;
+}
+.container{
+    width:80%;
+    background-color: #EAEAEA;
+    margin: 100px auto;
+}
+.skewedBox1{
+    padding-top: 10px;
+}
+.skewedBox2,
+.skewedBox3,
+.skewedBox4,
+.skewedBox5,
+.skewedBox6,
+.skewedBox7,
+.skewedBox8,
+.skewedBox9{
+    padding : 0 0;
+    transform : skew(0deg , -3deg) translateY(-120px);
+}
+.skewedBox1{
+    background-color:#251D3A;
+}
+.skewedBox2{
+    background-color:#EA047E;
+}
+.skewedBox3{
+    background-color:#377D71 ;
+}
+.skewedBox4{
+    background-color:#06283D;
+}
+.skewedBox5{
+    background-color:#FF9F29;
+}
+.skewedBox6{
+    background-color:#9A1663;
+}
+.skewedBox7{
+    background-color:#16003B;
+}
+.skewedBox8{
+    background-color:#C69749;
+}
+.skewedBox9{
+    background-color:#EA047E;
+}
+#inner-border-top{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+}
+.inner-border{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+.skewedBox2-content,
+.skewedBox3-content,
+.skewedBox4-content,
+.skewedBox5-content,
+.skewedBox6-content,
+.skewedBox7-content,
+.skewedBox8-content,
+.skewedBox9-content{
+    padding: 30px 50px;
+    transform: skew(0deg, 3deg);
+}
+.skewedBox2-content,
+.skewedBox4-content,
+.skewedBox6-content,
+.skewedBox8-content{
+    padding-right: 200px;
+    padding-left: 100px;
+}
+.skewedBox3-content,
+.skewedBox5-content,
+.skewedBox7-content,
+.skewedBox9-content{
+    padding-left: 250px;
+    padding-right: 50px;
+}
+.skewedBox1-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+.skewedBox2-content p,
+.skewedBox4-content p,
+.skewedBox6-content p,
+.skewedBox8-content p{
+    padding-left: 110px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.skewedBox3-content p,
+.skewedBox5-content p,
+.skewedBox7-content p,
+.skewedBox9-content p{
+    padding-left: 110px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.skewedBox1-content .head{
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+} 
+.skewedBox1-content img{
+    width: 70px;
+    height: 70px;
+ }
+ .thanking-section{
+    position: relative;
+}
+.thanking{
+    color: #251D3A;
+    position: absolute;
+    right: 70px;
+    bottom: -20px;
+}
+
+
+
